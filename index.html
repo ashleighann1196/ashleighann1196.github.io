@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--ad dimensions go here -->
+    <meta name="ad.size" content="width=300,height=600">
+    <title>300x600</title>
+    <!--click tag for where the ad links to -->
+    <script type="text/javascript">
+        var clickTag = "#";
+    </script>
+
+    <!--add css styles here-->
+    <style type="text/css">
+        body{
+            margin: 0;
+            top: auto;
+            font-family: raleway, sans-serif;
+        }
+        /*the container class specifies the styles for the entire ad*/
+        .container{
+            width: 300px;
+            height: 600px;
+            position: relative;
+            border: none;
+            overflow: hidden;
+            background-color: #54565b;
+            background-repeat:no-repeat;
+            background-position: center;
+            box-sizing: border-box;
+        }
+
+        /*you want your classes to be absolutely positioned so that you can declare the exact position*/
+        .bluetriangle, .baileytext, .dinotext, .orangetriangle, .download, .apple, .google, .ark, .greentriangle {
+        position:absolute;
+      }
+
+        .bluetriangle {
+            top:259px;
+            left:0;
+            -webkit-animation: bluetriangleAnimate 15s 1 forwards;
+            -moz-animation:    bluetriangleAnimate 15s 1 forwards;
+            -o-animation:      bluetriangleAnimate 15s 1 forwards;
+            animation:         bluetriangleAnimate 15s 1 forwards;
+        }
+
+        .orangetriangle {
+          top:130px;
+          left:70px;
+          -webkit-animation: orangetriangleAnimate 15s 1 forwards;
+          -moz-animation:    orangetriangleAnimate 15s 1 forwards;
+          -o-animation:      orangetriangleAnimate 15s 1 forwards;
+          animation:         orangetriangleAnimate 15s 1 forwards;
+        }
+
+        .greentriangle {
+          top:479px;
+          left:42px;
+          -webkit-animation: greentriangleAnimate 15s 1 forwards;
+          -moz-animation:    greentriangleAnimate 15s 1 forwards;
+          -o-animation:      greentriangleAnimate 15s 1 forwards;
+          animation:         greentriangleAnimate 15s 1 forwards;
+        }
+
+
+      .baileytext {
+        top:41px;
+        left:15px;
+        -webkit-animation: baileytextAnimate 15s 1 forwards;
+        -moz-animation:    baileytextAnimate 15s 1 forwards;
+        -o-animation:      baileytextAnimate 15s 1 forwards;
+        animation:         baileytextAnimate 15s 1 forwards;
+      }
+
+    .dinotext {
+      top:270px;
+      left:70px;
+      -webkit-animation: dinotextAnimate 15s 1 forwards;
+      -moz-animation:    dinotextAnimate 15s 1 forwards;
+      -o-animation:      dinotextAnimate 15s 1 forwards;
+      animation:         dinotextAnimate 15s 1 forwards;
+
+    }
+
+
+
+        /*FRAME ONE*/
+
+        @-webkit-keyframes bluetriangleAnimate {
+
+        }
+        @keyframes bluetriangleAnimate {
+          0%   { opacity: 0; left: -100px; }
+          1%   { opacity: 0; left: -100px;}
+          5%   { opacity: 1; left: 0;}
+          10%  { opacity: 1; left: 0;}
+          15%  { opacity: 1; left: 0;}
+          20%  { opacity: 1; left: 0;}
+          25%  { opacity: 1; left: 0;}
+          35%  { opacity: 0; left: 0;}
+          40%  { opacity: 0; left: 0;}
+          50%  {opacity:  0; left: 0;}
+          100% { opacity: 0; left: 0;}
+        }
+        @-moz-keyframes bluetriangleAnimate {
+
+        }
+        @-o-keyframes bluetriangleAnimate {
+
+        }
+
+
+
+
+        @-webkit-keyframes baileytextAnimate {
+
+        }
+        @keyframes baileytextAnimate {
+          0%   { opacity: 0; }
+          1%   { opacity: 0; }
+          5%   { opacity: 0; }
+          10%  { opacity: 1; }
+          15%  { opacity: 1; }
+          30%  { opacity: 1; }
+          40%  {opacity:  0; }
+          100% { opacity: 0; }
+        }
+        @-moz-keyframes baileytextAnimate {
+
+        }
+        @-o-keyframes baileytextAnimate {
+
+        }
+
+
+
+        @-webkit-keyframes orangetriangleAnimate {
+
+        }
+        @keyframes orangetriangleAnimate {
+          0%   { opacity: 0; left: 400px; }
+          1%   { opacity: 0; left: 400px;}
+          5%   { opacity: 0; left: 400px;}
+          10%  { opacity: 0; left: 400px;}
+          15%  { opacity: 1; left: 70px;}
+          20%  { opacity: 1; left: 70px;}
+          25%  { opacity: 1; }
+          35%  { opacity: 1; }
+          40%  {opacity:  0; }
+          100% { opacity: 0; }
+        }
+        @-moz-keyframes orangetriangleAnimate {
+
+        }
+        @-o-keyframes orangetriangleAnimate {
+
+        }
+
+
+        @-webkit-keyframes greentriangleAnimate {
+
+        }
+        @keyframes greentriangleAnimate {
+          0%   { opacity: 0; top: 700px; }
+          1%   { opacity: 0; top: 700px;}
+          5%   { opacity: 0; top:700px;}
+          10%  { opacity: 0; top:700px;}
+          15%  { opacity: 0; top:700px;}
+          20%  { opacity: 1; top:479px;}
+          25%  { opacity: 1; }
+          35%  { opacity: 1; }
+          40%  { opacity:  1; }
+          45%  { opacity:  0; }
+          100% { opacity: 0; }
+        }
+        @-moz-keyframes greentriangleAnimate {
+
+        }
+        @-o-keyframes greentriangleAnimate {
+
+        }
+
+
+@-webkit-keyframes dinotextAnimate {
+
+}
+@keyframes dinotextAnimate {
+  0%   { opacity: 0; }
+  1%   { opacity: 0; }
+  5%   { opacity: 0; }
+  10%  { opacity: 0; }
+  15%  { opacity: 0; }
+  20%  { opacity: 1; }
+  25%  {opacity:  1; }
+  30%  { opacity: 0; }
+  50%  {opacity:  0; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes dinotextAnimate {
+
+}
+@-o-keyframes dinotextAnimate {
+
+}
+
+
+
+
+
+        /* FRAME TWO */
+
+
+        .download {
+          top:350px;
+          left:18px;
+          -webkit-animation: downloadAnimate 15s 1 forwards;
+          -moz-animation:    downloadAnimate 15s 1 forwards;
+          -o-animation:      downloadAnimate 15s 1 forwards;
+          animation:         downloadAnimate 15s 1 forwards;
+
+        }
+
+        .apple {
+          top:420px;
+          left:86px;
+          -webkit-animation: appleAnimate 15s 1 forwards;
+          -moz-animation:    appleAnimate 15s 1 forwards;
+          -o-animation:      appleAnimate 15s 1 forwards;
+          animation:         appleAnimate 15s 1 forwards;
+        }
+
+        .google {
+          top:490px;
+          left:86px;
+          -webkit-animation: googleAnimate 15s 1 forwards;
+          -moz-animation:    googleAnimate 15s 1 forwards;
+          -o-animation:      googleAnimate 15s 1 forwards;
+          animation:         googleAnimate 15s 1 forwards;
+        }
+
+        .ark {
+          top:0px;
+          left:0px;
+          -webkit-animation: arkAnimate 15s 1 forwards;
+          -moz-animation:    arkAnimate 15s 1 forwards;
+          -o-animation:      arkAnimate 15s 1 forwards;
+          animation:         arkAnimate 15s 1 forwards;
+        }
+
+
+        @-webkit-keyframes downloadAnimate {
+
+        }
+        @keyframes downloadAnimate {
+          0%   { opacity: 0; }
+          1%   { opacity: 0; }
+          5%   { opacity: 0; }
+          10%  { opacity: 0; }
+          15%  { opacity: 0; }
+          20%  { opacity: 0; }
+          35%  {<opacity: 0; }
+          40%  {opacity:  0; }
+          45%  { opacity: 0; }
+          50%  {opacity:  1; }
+          55%  { opacity: 1; }
+          60%  {opacity:  1; }
+          70%  {opacity:  1; }
+          100% { opacity: 1; }
+        }
+        @-moz-keyframes downloadAnimate {
+
+        }
+        @-o-keyframes downloadAnimate {
+
+
+}
+      @-webkit-keyframes appleAnimate {
+
+          }
+      @keyframes appleAnimate {
+            0%   { opacity: 0; }
+            1%   { opacity: 0; }
+            5%   { opacity: 0; }
+            10%  { opacity: 0; }
+            15%  { opacity: 0; }
+            20%  { opacity: 0; }
+            25%  { opacity: 0; }
+            30%  { opacity: 0; }
+            35%  { opacity: 0; }
+            40%  { opacity: 0; }
+            45%  { opacity: 0; }
+            50%  { opacity: 0; left: 400px;}
+            55%  { opacity: 1; left: 86px; }
+            60%  { opacity: 1; }
+            65%  { opacity: 1; }
+            70%  { opacity: 1; }
+            100% { opacity: 1; }
+          }
+          @-moz-keyframes appleAnimate {
+
+          }
+          @-o-keyframes appleAnimate {
+
+
+          }
+                @-webkit-keyframes googleAnimate {
+
+                    }
+                @keyframes googleAnimate {
+                      0%   { opacity: 0; }
+                      1%   { opacity: 0; }
+                      5%   { opacity: 0; }
+                      10%  { opacity: 0; }
+                      15%  { opacity: 0; }
+                      20%  { opacity: 0; }
+                      25%  { opacity: 0; }
+                      30%  { opacity: 0; }
+                      35%  { opacity: 0; }
+                      40%  {opacity:  0; }
+                      45%  {opacity:  0; }
+                      50%  {opacity:  0; left: -100px; }
+                      55%  {opacity:  1; left: 86px; }
+                      60%  {opacity:  1; }
+                      65%  {opacity:  1; }
+                      70%  {opacity:  1; }
+                      100% { opacity: 1; }
+                    }
+                    @-moz-keyframes arkAnimate {
+
+                    }
+                    @-o-keyframes arkAnimate {
+}
+                      @-webkit-keyframes arkAnimate {
+
+                      }
+                      @keyframes arkAnimate {
+                        0%   { opacity: 0; }
+                        1%   { opacity: 0; }
+                        5%   { opacity: 0; }
+                        10%  { opacity: 0; }
+                        15%  { opacity: 0; }
+                        20%  { opacity: 0; }
+                        35%  {<opacity: 0; }
+                        40%  {opacity:  0; }
+                        45%  { opacity: 1; }
+                        50%  {opacity:  1; }
+                        55%  { opacity: 1; }
+                        70%  {opacity:  1; }
+                        100% { opacity: 1; }
+                      }
+                      @-moz-keyframes downloadAnimate {
+
+                      }
+                      @-o-keyframes downloadAnimate {
+
+
+              }
+
+        /*Removes borders from links and images*/
+        a img{
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+<a href="javascript:window.open(window.clickTag)">
+    <!--add all of your html elements here-->
+    <div class="container">
+        <div class="frame1">
+            <div class="bluetriangle"><img src="images/blue-triangle_09.png" /></div>
+<div class="orangetriangle"><img src="images/orange-triangle_06.png" /></div>
+<div class="baileytext"><img src="images/baileytext.png" /></div>
+<div class="dinotext"><img src="images/dinotext.png" /> </div>
+
+        </div>
+        <div class="frame2">
+<div class="download"><img src="images/download-now_10.png" /></div>
+<div class="apple"><img src="images/apple.png" /></div>
+<div class="google"><img src="images/google.png" /></div>
+<div class="ark"><img src="images/ark.png" /></div>
+<div class="greentriangle"><img src="images/greentriangle.png" /></div>
+        </div>
+
+    </div>
+</a>
+</body>
+</html>
